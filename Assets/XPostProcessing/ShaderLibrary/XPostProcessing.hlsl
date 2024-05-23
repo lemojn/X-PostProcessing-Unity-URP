@@ -9,7 +9,6 @@
 #include "NoiseLibrary.hlsl"
 
 TEXTURE2D_X_FLOAT(_CameraDepthTexture);
-float4 _BlitTexture_TexelSize;
 
 half4 GetScreenColor(float2 uv)
 {
